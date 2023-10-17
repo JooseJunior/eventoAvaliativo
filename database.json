@@ -1,0 +1,184 @@
+{
+    "eventos": [
+      {
+        "id": 1,
+        "titulo": "Início da Primeira Guerra Mundial",
+        "descricao": "A Primeira Guerra Mundial começou em 28 de julho de 1914, desencadeada pelo assassinato do Arquiduque Franz Ferdinand da Áustria. O conflito resultou em cerca de 40 milhões de baixas.",
+        "local": "Europa e outros teatros de guerra",
+        "baixas": 40000000,
+        "dataInicio": "1914-07-28",
+        "dataFim": "1918-11-11"
+      },
+      {
+        "id": 2,
+        "titulo": "Tratado de Versalhes (Conferência de Paz)",
+        "descricao": "A Conferência de Paz de Versalhes ocorreu após o fim da Primeira Guerra Mundial. O tratado foi assinado em 28 de junho de 1919, estabelecendo os termos para o fim oficial da guerra.",
+        "local": "Palácio de Versalhes, França",
+        "baixas": 0,
+        "dataInicio": "1919-06-28",
+        "dataFim": "1919-06-28"
+      },
+      {
+        "id": 3,
+        "titulo": "Início da Segunda Guerra Mundial",
+        "descricao": "A Segunda Guerra Mundial começou em 1º de setembro de 1939, quando a Alemanha invadiu a Polônia. O conflito resultou em aproximadamente 70-85 milhões de baixas.",
+        "local": "Europa, Ásia e outros teatros de guerra",
+        "baixas": 75000000,
+        "dataInicio": "1939-09-01",
+        "dataFim": "1945-09-02"
+      },
+      {
+        "id": 4,
+        "titulo": "Fim da Segunda Guerra Mundial",
+        "descricao": "A Segunda Guerra Mundial chegou ao fim em 2 de setembro de 1945, após a rendição do Japão. O conflito deixou um legado de devastação e sofrimento em todo o mundo.",
+        "local": "Mundial",
+        "baixas": 75000000,
+        "dataInicio": "1945-09-02",
+        "dataFim": "1945-09-02"
+      },
+      {
+        "id": 5,
+        "titulo": "Conferência de Potsdam",
+        "descricao": "A Conferência de Potsdam ocorreu de 17 de julho a 2 de agosto de 1945, reunindo os líderes das potências aliadas para discutir o pós-guerra e a ocupação da Alemanha.",
+        "local": "Potsdam, Alemanha",
+        "baixas": 0,
+        "dataInicio": "1945-07-17",
+        "dataFim": "1945-08-02"
+      },
+      {
+        "id": 6,
+        "titulo": "Guerra da Coreia",
+        "descricao": "A Guerra da Coreia começou em 25 de junho de 1950, quando a Coreia do Norte invadiu a Coreia do Sul. O conflito resultou em cerca de 2,5 milhões de baixas.",
+        "local": "Península da Coreia",
+        "baixas": 2500000,
+        "dataInicio": "1950-06-25",
+        "dataFim": "1953-07-27"
+      },
+      {
+        "id": 7,
+        "titulo": "Fim da Guerra da Coreia",
+        "descricao": "A Guerra da Coreia chegou ao fim em 27 de julho de 1953, com a assinatura de um armistício que estabeleceu uma trégua entre as duas Coreias.",
+        "local": "Península da Coreia",
+        "baixas": 2500000,
+        "dataInicio": "1953-07-27",
+        "dataFim": "1953-07-27"
+      },
+      {
+        "id": 8,
+        "titulo": "Revolução Cubana",
+        "descricao": "A Revolução Cubana começou em 26 de julho de 1953 com o ataque ao Quartel Moncada. O conflito levou à ascensão de Fidel Castro e à transformação de Cuba.",
+        "local": "Cuba",
+        "baixas": 0,
+        "dataInicio": "1953-07-26",
+        "dataFim": "1959-01-01"
+      },
+      {
+        "id": 9,
+        "titulo": "Crise dos Mísseis de Cuba",
+        "descricao": "A Crise dos Mísseis de Cuba ocorreu em outubro de 1962, quando os EUA e a União Soviética estiveram à beira de um conflito nuclear devido à implantação de mísseis soviéticos em Cuba.",
+        "local": "Cuba e EUA",
+        "baixas": 0,
+        "dataInicio": "1962-10-16",
+        "dataFim": "1962-10-28"
+      },
+      {
+        "id": 10,
+        "titulo": "Guerra do Vietnã",
+        "descricao": "A Guerra do Vietnã começou em 1º de novembro de 1955, quando o Vietnã do Sul recebeu apoio militar dos EUA. O conflito resultou em cerca de 2-3 milhões de baixas.",
+        "local": "Vietnã",
+        "baixas": 2500000,
+        "dataInicio": "1955-11-01",
+        "dataFim": "1975-04-30"
+      },
+      {
+        "id": 11,
+        "titulo": "Guerra do Golfo",
+        "descricao": "A Guerra do Golfo começou em 2 de agosto de 1990, quando o Iraque invadiu o Kuwait. A coalizão liderada pelos EUA libertou o Kuwait em 28 de fevereiro de 1991.",
+        "local": "Kuwait e Iraque",
+        "baixas": 0,
+        "dataInicio": "1990-08-02",
+        "dataFim": "1991-02-28"
+      },
+      {
+        "id": 12,
+        "titulo": "Queda do Muro de Berlim",
+        "descricao": "A queda do Muro de Berlim ocorreu em 9 de novembro de 1989, marcando o fim da divisão da Alemanha e o início do colapso do Bloco Oriental durante a Guerra Fria.",
+        "local": "Berlim, Alemanha",
+        "baixas": 0,
+        "dataInicio": "1989-11-09",
+        "dataFim": "1989-11-09"
+      },
+      {
+        "id": 13,
+        "titulo": "Colapso da União Soviética",
+        "descricao": "O colapso da União Soviética ocorreu em 26 de dezembro de 1991, marcando o fim da Guerra Fria e o desmembramento do bloco soviético.",
+        "local": "Mundial",
+        "baixas": 0,
+        "dataInicio": "1991-12-26",
+        "dataFim": "1991-12-26"
+      },
+      {
+        "id": 14,
+        "titulo": "Guerra do Kosovo",
+        "descricao": "A Guerra do Kosovo começou em 28 de fevereiro de 1998, quando forças sérvias reprimiram a população kosovar albanesa. O conflito resultou em milhares de baixas.",
+        "local": "Kosovo",
+        "baixas": 0,
+        "dataInicio": "1998-02-28",
+        "dataFim": "1999-06-10"
+      },
+      {
+        "id": 15,
+        "titulo": "Ataques de 11 de Setembro",
+        "descricao": "Os ataques de 11 de setembro de 2001 foram uma série de ataques terroristas coordenados pela Al-Qaeda nos EUA, resultando em quase 3.000 mortes.",
+        "local": "EUA",
+        "baixas": 3000,
+        "dataInicio": "2001-09-11",
+        "dataFim": "2001-09-11"
+      },
+      {
+        "id": 16,
+        "titulo": "Guerra no Afeganistão (Invasão dos EUA)",
+        "descricao": "A invasão do Afeganistão pelos EUA começou em 7 de outubro de 2001, em resposta aos ataques de 11 de setembro. O conflito continua até hoje.",
+        "local": "Afeganistão",
+        "baixas": "Dezenas de milhares",
+        "dataInicio": "2001-10-07",
+        "dataFim": "Presente"
+      },
+      {
+        "id": 17,
+        "titulo": "Guerra no Iraque (Invasão dos EUA)",
+        "descricao": "A invasão do Iraque pelos EUA começou em 20 de março de 2003, com base em alegações de armas de destruição em massa. O conflito resultou em dezenas de milhares de baixas.",
+        "local": "Iraque",
+        "baixas": "Dezenas de milhares",
+        "dataInicio": "2003-03-20",
+        "dataFim": "2011-12-15"
+      },
+      {
+        "id": 18,
+        "titulo": "Revolução Ucraniana",
+        "descricao": "A Revolução Ucraniana, também conhecida como Euromaidan, começou em novembro de 2013 e levou à queda do presidente Viktor Yanukovych.",
+        "local": "Ucrânia",
+        "baixas": "Centenas",
+        "dataInicio": "2013-11-21",
+        "dataFim": "2014-02-22"
+      },
+      {
+        "id": 19,
+        "titulo": "Guerra Civil Síria",
+        "descricao": "A Guerra Civil Síria começou em 15 de março de 2011 e continua em andamento. O conflito resultou em centenas de milhares de baixas e deslocados.",
+        "local": "Síria",
+        "baixas": "Centenas de milhares",
+        "dataInicio": "2011-03-15",
+        "dataFim": "Presente"
+      },
+      {
+        "id": 20,
+        "titulo": "Conflito Russo-Ucraniano",
+        "descricao": "O conflito entre a Rússia e a Ucrânia começou em 2014, quando a Rússia anexou a Crimeia. O conflito continua, causando baixas e tensões na região.",
+        "local": "Ucrânia e Rússia",
+        "baixas": "Milhares",
+        "dataInicio": "2014-03-18",
+        "dataFim": "Presente"
+      }
+    ]
+  }
