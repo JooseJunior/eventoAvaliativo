@@ -1,0 +1,48 @@
+.footer{
+    background-color: rgb(32, 32, 32);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 400px;
+    left: 5px;
+}
+
+.info h1{
+    font-size: 20px;
+}
+.info p{
+    font-size: 14px;
+}
+
+.barra{
+    background-color: rgb(170, 168, 168);
+    margin: 3px 0;
+    height: 2px;
+    width: 400px;
+}
+
+.local{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    position: absolute;
+    right: 5px;
+    text-align: right;
+}
+
+.local p{
+    font-size: 13px;
+}
+
+.local h3{
+    margin: 2px;
+    font-size: 14px;
+}

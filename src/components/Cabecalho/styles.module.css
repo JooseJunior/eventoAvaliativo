@@ -1,0 +1,37 @@
+.header{
+    background-color: rgb(32, 32, 32);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.titulo{
+    justify-content: start;
+    flex-direction: row;
+    font-size: 21px;
+}
+
+.link{
+    justify-content: end;
+    flex-direction: row;
+    font-size: 20px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.itemLink{
+    margin: 0 10px;
+    color: rgb(180, 180, 180);
+    text-decoration: none;
+
+}
+
+.itemLink:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}

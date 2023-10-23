@@ -1,184 +1,166 @@
 {
-    "eventos": [
-      {
-        "id": 1,
-        "titulo": "Início da Primeira Guerra Mundial",
-        "descricao": "A Primeira Guerra Mundial começou em 28 de julho de 1914, desencadeada pelo assassinato do Arquiduque Franz Ferdinand da Áustria. O conflito resultou em cerca de 40 milhões de baixas.",
-        "local": "Europa e outros teatros de guerra",
-        "baixas": 40000000,
-        "dataInicio": "1914-07-28",
-        "dataFim": "1918-11-11"
-      },
-      {
-        "id": 2,
-        "titulo": "Tratado de Versalhes (Conferência de Paz)",
-        "descricao": "A Conferência de Paz de Versalhes ocorreu após o fim da Primeira Guerra Mundial. O tratado foi assinado em 28 de junho de 1919, estabelecendo os termos para o fim oficial da guerra.",
-        "local": "Palácio de Versalhes, França",
-        "baixas": 0,
-        "dataInicio": "1919-06-28",
-        "dataFim": "1919-06-28"
-      },
-      {
-        "id": 3,
-        "titulo": "Início da Segunda Guerra Mundial",
-        "descricao": "A Segunda Guerra Mundial começou em 1º de setembro de 1939, quando a Alemanha invadiu a Polônia. O conflito resultou em aproximadamente 70-85 milhões de baixas.",
-        "local": "Europa, Ásia e outros teatros de guerra",
-        "baixas": 75000000,
-        "dataInicio": "1939-09-01",
-        "dataFim": "1945-09-02"
-      },
-      {
-        "id": 4,
-        "titulo": "Fim da Segunda Guerra Mundial",
-        "descricao": "A Segunda Guerra Mundial chegou ao fim em 2 de setembro de 1945, após a rendição do Japão. O conflito deixou um legado de devastação e sofrimento em todo o mundo.",
-        "local": "Mundial",
-        "baixas": 75000000,
-        "dataInicio": "1945-09-02",
-        "dataFim": "1945-09-02"
-      },
-      {
-        "id": 5,
-        "titulo": "Conferência de Potsdam",
-        "descricao": "A Conferência de Potsdam ocorreu de 17 de julho a 2 de agosto de 1945, reunindo os líderes das potências aliadas para discutir o pós-guerra e a ocupação da Alemanha.",
-        "local": "Potsdam, Alemanha",
-        "baixas": 0,
-        "dataInicio": "1945-07-17",
-        "dataFim": "1945-08-02"
-      },
-      {
-        "id": 6,
-        "titulo": "Guerra da Coreia",
-        "descricao": "A Guerra da Coreia começou em 25 de junho de 1950, quando a Coreia do Norte invadiu a Coreia do Sul. O conflito resultou em cerca de 2,5 milhões de baixas.",
-        "local": "Península da Coreia",
-        "baixas": 2500000,
-        "dataInicio": "1950-06-25",
-        "dataFim": "1953-07-27"
-      },
-      {
-        "id": 7,
-        "titulo": "Fim da Guerra da Coreia",
-        "descricao": "A Guerra da Coreia chegou ao fim em 27 de julho de 1953, com a assinatura de um armistício que estabeleceu uma trégua entre as duas Coreias.",
-        "local": "Península da Coreia",
-        "baixas": 2500000,
-        "dataInicio": "1953-07-27",
-        "dataFim": "1953-07-27"
-      },
-      {
-        "id": 8,
-        "titulo": "Revolução Cubana",
-        "descricao": "A Revolução Cubana começou em 26 de julho de 1953 com o ataque ao Quartel Moncada. O conflito levou à ascensão de Fidel Castro e à transformação de Cuba.",
-        "local": "Cuba",
-        "baixas": 0,
-        "dataInicio": "1953-07-26",
-        "dataFim": "1959-01-01"
-      },
-      {
-        "id": 9,
-        "titulo": "Crise dos Mísseis de Cuba",
-        "descricao": "A Crise dos Mísseis de Cuba ocorreu em outubro de 1962, quando os EUA e a União Soviética estiveram à beira de um conflito nuclear devido à implantação de mísseis soviéticos em Cuba.",
-        "local": "Cuba e EUA",
-        "baixas": 0,
-        "dataInicio": "1962-10-16",
-        "dataFim": "1962-10-28"
-      },
-      {
-        "id": 10,
-        "titulo": "Guerra do Vietnã",
-        "descricao": "A Guerra do Vietnã começou em 1º de novembro de 1955, quando o Vietnã do Sul recebeu apoio militar dos EUA. O conflito resultou em cerca de 2-3 milhões de baixas.",
-        "local": "Vietnã",
-        "baixas": 2500000,
-        "dataInicio": "1955-11-01",
-        "dataFim": "1975-04-30"
-      },
-      {
-        "id": 11,
-        "titulo": "Guerra do Golfo",
-        "descricao": "A Guerra do Golfo começou em 2 de agosto de 1990, quando o Iraque invadiu o Kuwait. A coalizão liderada pelos EUA libertou o Kuwait em 28 de fevereiro de 1991.",
-        "local": "Kuwait e Iraque",
-        "baixas": 0,
-        "dataInicio": "1990-08-02",
-        "dataFim": "1991-02-28"
-      },
-      {
-        "id": 12,
-        "titulo": "Queda do Muro de Berlim",
-        "descricao": "A queda do Muro de Berlim ocorreu em 9 de novembro de 1989, marcando o fim da divisão da Alemanha e o início do colapso do Bloco Oriental durante a Guerra Fria.",
-        "local": "Berlim, Alemanha",
-        "baixas": 0,
-        "dataInicio": "1989-11-09",
-        "dataFim": "1989-11-09"
-      },
-      {
-        "id": 13,
-        "titulo": "Colapso da União Soviética",
-        "descricao": "O colapso da União Soviética ocorreu em 26 de dezembro de 1991, marcando o fim da Guerra Fria e o desmembramento do bloco soviético.",
-        "local": "Mundial",
-        "baixas": 0,
-        "dataInicio": "1991-12-26",
-        "dataFim": "1991-12-26"
-      },
-      {
-        "id": 14,
-        "titulo": "Guerra do Kosovo",
-        "descricao": "A Guerra do Kosovo começou em 28 de fevereiro de 1998, quando forças sérvias reprimiram a população kosovar albanesa. O conflito resultou em milhares de baixas.",
-        "local": "Kosovo",
-        "baixas": 0,
-        "dataInicio": "1998-02-28",
-        "dataFim": "1999-06-10"
-      },
-      {
-        "id": 15,
-        "titulo": "Ataques de 11 de Setembro",
-        "descricao": "Os ataques de 11 de setembro de 2001 foram uma série de ataques terroristas coordenados pela Al-Qaeda nos EUA, resultando em quase 3.000 mortes.",
-        "local": "EUA",
-        "baixas": 3000,
-        "dataInicio": "2001-09-11",
-        "dataFim": "2001-09-11"
-      },
-      {
-        "id": 16,
-        "titulo": "Guerra no Afeganistão (Invasão dos EUA)",
-        "descricao": "A invasão do Afeganistão pelos EUA começou em 7 de outubro de 2001, em resposta aos ataques de 11 de setembro. O conflito continua até hoje.",
-        "local": "Afeganistão",
-        "baixas": "Dezenas de milhares",
-        "dataInicio": "2001-10-07",
-        "dataFim": "Presente"
-      },
-      {
-        "id": 17,
-        "titulo": "Guerra no Iraque (Invasão dos EUA)",
-        "descricao": "A invasão do Iraque pelos EUA começou em 20 de março de 2003, com base em alegações de armas de destruição em massa. O conflito resultou em dezenas de milhares de baixas.",
-        "local": "Iraque",
-        "baixas": "Dezenas de milhares",
-        "dataInicio": "2003-03-20",
-        "dataFim": "2011-12-15"
-      },
-      {
-        "id": 18,
-        "titulo": "Revolução Ucraniana",
-        "descricao": "A Revolução Ucraniana, também conhecida como Euromaidan, começou em novembro de 2013 e levou à queda do presidente Viktor Yanukovych.",
-        "local": "Ucrânia",
-        "baixas": "Centenas",
-        "dataInicio": "2013-11-21",
-        "dataFim": "2014-02-22"
-      },
-      {
-        "id": 19,
-        "titulo": "Guerra Civil Síria",
-        "descricao": "A Guerra Civil Síria começou em 15 de março de 2011 e continua em andamento. O conflito resultou em centenas de milhares de baixas e deslocados.",
-        "local": "Síria",
-        "baixas": "Centenas de milhares",
-        "dataInicio": "2011-03-15",
-        "dataFim": "Presente"
-      },
-      {
-        "id": 20,
-        "titulo": "Conflito Russo-Ucraniano",
-        "descricao": "O conflito entre a Rússia e a Ucrânia começou em 2014, quando a Rússia anexou a Crimeia. O conflito continua, causando baixas e tensões na região.",
-        "local": "Ucrânia e Rússia",
-        "baixas": "Milhares",
-        "dataInicio": "2014-03-18",
-        "dataFim": "Presente"
-      }
-    ]
-  }
+  "eventos": [
+    {
+      "id": 1,
+      "imagem": "/alQaeda.webp",
+      "titulo": "Fundação da Al-Qaeda (1988)",
+      "descricao": "A Al-Qaeda, uma organização extremista islâmica, foi fundada em 1988 e se tornou um ator significativo no cenário do terrorismo global. Sua formação ocorreu em meio a mudanças políticas e sociais no mundo árabe, e a organização rapidamente se tornou um dos grupos terroristas mais notórios do século XX e XXI. Liderada por Osama bin Laden por muitos anos, a Al-Qaeda promoveu uma ideologia jihadista radical e conduziu inúmeros ataques em todo o mundo. O grupo ganhou notoriedade especial após os ataques de 11 de setembro de 2001, que resultaram em milhares de mortes e tiveram um impacto profundo nas políticas de segurança global.",
+      "local": "Mundo Árabe",
+      "dataInicial": "1988-08-11",
+      "dataFinal": "1988-08-11"
+    },
+    {
+      "id": 2,
+      "imagem": "/embaixadasEUA.jpg",
+      "titulo": "Ataques às Embaixadas dos EUA (1998)",
+      "descricao": "Em 7 de agosto de 1998, as embaixadas dos EUA em Nairóbi, Quênia, e Dar es Salaam, Tanzânia, foram alvos de ataques coordenados com explosivos pela Al-Qaeda. Esses ataques provocaram devastação e resultaram em vítimas, além de danos significativos às embaixadas e áreas circundantes. Os ataques às embaixadas representaram um marco na atuação da Al-Qaeda e na sua capacidade de realizar operações transnacionais de grande escala.",
+      "local": "Nairóbi, Quênia, e Dar es Salaam, Tanzânia",
+      "dataInicial": "1998-08-07",
+      "dataFinal": "1998-08-07"
+    },
+    {
+      "id": 3,
+      "imagem": "/ussCole.jpg",
+      "titulo": "Ataque ao USS Cole (2000)",
+      "descricao": "Em 12 de outubro de 2000, o navio de guerra USS Cole, pertencente à Marinha dos Estados Unidos, foi alvo de um atentado suicida no porto de Aden, Iêmen. O ataque, atribuído à Al-Qaeda, envolveu a explosão de uma pequena embarcação carregada de explosivos ao lado do USS Cole enquanto ele estava ancorado.",
+      "local": "Porto de Aden, Iêmen",
+      "dataInicial": "2000-10-12",
+      "dataFinal": "2000-10-12"
+    },
+    {
+      "id": 4,
+      "imagem": "/torresGemeas.jpg",
+      "titulo": "Ataques às Torres Gêmeas (2001)",
+      "descricao": "Em 11 de setembro de 2001, a Al-Qaeda realizou ataques coordenados nos EUA, destruindo as Torres Gêmeas em Nova York e atingindo o Pentágono em Washington, D.C. Esses eventos chocantes tiveram um impacto profundo na segurança global e nas políticas internacionais, levando a uma resposta enérgica por parte dos EUA e da comunidade internacional.",
+      "local": "Nova York e Washington, D.C., EUA",
+      "dataInicial": "2001-09-11",
+      "dataFinal": "2001-09-11"
+    },
+    {
+      "id": 5,
+      "imagem": "/guerraAfeganistao.jpg",
+      "titulo": "Guerra no Afeganistão (2001 - Presente)",
+      "descricao": "Após os ataques de 11 de setembro de 2001, os EUA lideraram uma coalizão na invasão do Afeganistão em 7 de outubro de 2001, com o objetivo de desmantelar a Al-Qaeda e remover o regime Talibã, que havia apoiado a organização. A guerra no Afeganistão continua até hoje, resultando em complexas implicações geopolíticas e humanitárias.",
+      "local": "Afeganistão",
+      "dataInicial": "2001-10-07",
+      "dataFinal": "Presente"
+    },
+    {
+      "id": 6,
+      "imagem": "/binLaden.webp",
+      "titulo": "Busca por Osama bin Laden (2011)",
+      "descricao": "A busca por Osama bin Laden, líder da Al-Qaeda, terminou com sua morte em uma operação dos EUA no Paquistão em 2 de maio de 2011. Sua morte representou um marco importante na luta contra o terrorismo e foi vista como um passo significativo na desarticulação da Al-Qaeda.",
+      "local": "Abbottabad, Paquistão",
+      "dataInicial": "2011-05-02",
+      "dataFinal": "2011-05-02"
+    },
+    {
+      "id": 7,
+      "imagem": "/depSegurancaEUA.jpg",
+      "titulo": "Formação do Dep. Segurança EUA (2002)",
+      "descricao": "O Departamento de Segurança Interna dos EUA foi estabelecido em 25 de novembro de 2002 para coordenar a segurança doméstica e combater ameaças terroristas. Sua criação foi uma resposta direta aos ataques de 11 de setembro de 2001 e refletiu a necessidade de uma abordagem mais abrangente e integrada para proteger os EUA contra o terrorismo e outras ameaças.",
+      "local": "EUA",
+      "dataInicial": "2002-11-25",
+      "dataFinal": "2002-11-25"
+    },
+    {
+      "id": 8,
+      "imagem": "/leiPatriot.jpg",
+      "titulo": "Lei PATRIOT (USA PATRIOT Act) (2001)",
+      "descricao": "O USA PATRIOT Act, assinado em 26 de outubro de 2001, expandiu os poderes de vigilância do governo dos EUA em resposta ao 11 de Setembro. A lei gerou debates sobre o equilíbrio entre segurança e liberdades civis e teve implicações duradouras para a privacidade e os direitos individuais nos EUA.",
+      "local": "EUA",
+      "dataInicial": "2001-10-26",
+      "dataFinal": "2001-10-26"
+    },
+    {
+      "id": 9,
+      "imagem": "/guerraIraque.webp",
+      "titulo": "Guerra no Iraque (2003 - 2011)",
+      "descricao": "Os EUA lideraram uma coalizão na invasão do Iraque em 20 de março de 2003, alegando a presença de armas de destruição em massa. O conflito continuou até 2011, resultando em desafios significativos e controversos, incluindo a instabilidade pós-invasão e a insurgência.",
+      "local": "Iraque",
+      "dataInicial": "2003-03-20",
+      "dataFinal": "2011-12-15"
+    },
+    {
+      "id": 10,
+      "imagem": "/primaveraArabe.jpg",
+      "titulo": "Primavera Árabe (2010 - 2012)",
+      "descricao": "A Primavera Árabe foi uma onda de protestos, revoltas e mudanças políticas em vários países árabes, começando em 2010. Os eventos da Primavera Árabe tiveram implicações significativas para a política regional e internacional, levando a mudanças de regime em vários países árabes.",
+      "local": "Vários países árabes",
+      "dataInicial": "2010-12-17",
+      "dataFinal": "2012-12-27"
+    },
+    {
+      "id": 11,
+      "imagem": "/morteBinLaden.jpg",
+      "titulo": "Morte de Osama bin Laden (2011)",
+      "descricao": "Osama bin Laden, líder da Al-Qaeda, foi morto em uma operação dos EUA no Paquistão em 2 de maio de 2011. Sua morte representou um marco importante na luta contra o terrorismo e foi vista como um passo significativo na desarticulação da Al-Qaeda.",
+      "local": "Abbottabad, Paquistão",
+      "dataInicial": "2011-05-02",
+      "dataFinal": "2011-05-02"
+    },
+    {
+      "id": 12,
+      "imagem": "/surgimentoEstadoIslamico.jpg",
+      "titulo": "Surgimento do Estado Islâmico (ISIS) (2013)",
+      "descricao": "O Estado Islâmico (ISIS) se tornou proeminente em 2013, assumindo territórios no Iraque e na Síria. A ascensão do ISIS gerou graves preocupações globais sobre o terrorismo e o extremismo islâmico.",
+      "local": "Iraque e Síria",
+      "dataInicial": "2013-04-08",
+      "dataFinal": "Presente"
+    },
+    {
+      "id": 13,
+      "imagem": "/atentadoParis.jpg",
+      "titulo": "Atentados em Paris (2015)",
+      "descricao": "Em 13 de novembro de 2015, Paris foi alvo de ataques terroristas coordenados pelo ISIS, resultando em várias vítimas. Esses ataques chocaram o mundo e destacaram a ameaça persistente do terrorismo global.",
+      "local": "Paris, França",
+      "dataInicial": "2015-11-13",
+      "dataFinal": "2015-11-13"
+    },
+    {
+      "id": 14,
+      "imagem": "/ataquesBruxelas.jpg",
+      "titulo": "Ataques em Bruxelas (2016)",
+      "descricao": "Em 22 de março de 2016, Bruxelas foi alvo de ataques terroristas que incluíram explosões no aeroporto e no metrô. Esses ataques ressaltaram a vulnerabilidade das grandes cidades ocidentais a ameaças terroristas.",
+      "local": "Bruxelas, Bélgica",
+      "dataInicial": "2016-03-22",
+      "dataFinal": "2016-03-22"
+    },
+    {
+      "id": 15,
+      "imagem": "/ataquesNice.jpg",
+      "titulo": "Ataques em Nice (2016)",
+      "descricao": "Em 14 de julho de 2016, um caminhão foi usado para atropelar multidões que comemoravam o Dia da Bastilha em Nice, França. Esse ataque terrorista chocou o mundo e destacou a ameaça representada por táticas de ataque simples e eficazes.",
+      "local": "Nice, França",
+      "dataInicial": "2016-07-14",
+      "dataFinal": "2016-07-14"
+    },
+    {
+      "id": 16,
+      "imagem": "/atentadoBarcelona.jpg",
+      "titulo": "Atentados em Barcelona (2017)",
+      "descricao": "Em 17 de agosto de 2017, um ataque com uma van em La Rambla, Barcelona, deixou várias vítimas. Esse evento destacou a ameaça persistente do terrorismo em locais públicos movimentados.",
+      "local": "Barcelona, Espanha",
+      "dataInicial": "2017-08-17",
+      "dataFinal": "2017-08-17"
+    },
+    {
+      "id": 17,
+      "imagem": "/guerraSiria.jpg",
+      "titulo": "Guerra na Síria (2011 - Presente)",
+      "descricao": "A guerra civil na Síria teve início em março de 2011 e continua em curso, resultando em milhares de mortos e deslocados. O conflito na Síria gerou uma das maiores crises humanitárias do século XXI e teve implicações geopolíticas significativas.",
+      "local": "Síria",
+      "dataInicial": "2011-03-15",
+      "dataFinal": "Presente"
+    },
+    {
+      "id": 18,
+      "imagem": "/guerraAfrica.jpg",
+      "titulo": "Guerra ao Terrorismo na África (Sael e Sahel)",
+      "descricao": "Vários países na região do Sael e do Sahel na África enfrentam conflitos e instabilidade devido ao terrorismo e extremismo islâmico. Essa região se tornou um foco importante na luta global contra o terrorismo, com várias operações e iniciativas em andamento.",
+      "local": "Sael e Sahel, África",
+      "dataInicial": "Década de 2000 - Presente",
+      "dataFinal": "Presente"
+    }
+  ]
+}
