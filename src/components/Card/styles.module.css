@@ -17,7 +17,7 @@
     /* border-left: 2px soli rgba(0, 0, 255, 0.5); */
 }
 .card:hover{
-    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 15px rgba(0, 0, 255, 0.5);
 }
 
 .imagem{
@@ -60,7 +60,7 @@
 }
 
 .barra{
-    background-color: black;
+    background-color: rgb(0, 0, 255);
     width: 75%;
     height: 1px;
     margin: 5px;

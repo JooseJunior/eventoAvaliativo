@@ -1,13 +1,13 @@
 import Link from "next/link"
 import styles from "./styles.module.css"
 
-export default function Cabecalho({children}){
+export default function Cabecalho({titulo}){
 
     return(
         <>
         <header className={styles.header}>
             <div className={styles.titulo}>
-                <h2>{children}</h2>
+                <h2>{titulo}</h2>
             </div>
 
             <div className={styles.link}>

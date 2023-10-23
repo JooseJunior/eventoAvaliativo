@@ -3,6 +3,8 @@ import styles from './styles.module.css'
 import { useRouter } from 'next/router'
 import Image from 'next/image'
 import axios from 'axios'
+import Cabecalho from '@/components/Cabecalho'
+import Button from '@/components/Button'
 
 export default function Visualizar(){
 
@@ -28,15 +30,12 @@ export default function Visualizar(){
 
     return(
         <>
-        <div className={styles.menu}>
-            <h1>Evento</h1>
-
-
-        </div>
+        <Cabecalho titulo={"Portal Conflitos Históricos"}/>
 
         <div className={styles.container}>
-            <div className={styles.imagem}>
+            <div >
                 <Image
+                    className={styles.imagem}
                     src={evento.imagem}
                     alt={`Imagem de ${evento.titulo}`}
                     width={400}
@@ -45,13 +44,21 @@ export default function Visualizar(){
             </div>
 
             <div className={styles.info}>
-                <h2>{evento.titulo}</h2>
+                <h2 className={styles.infoTitulo}>{evento.titulo}</h2>
+                <div className={styles.barra}/>
                 <br/>
+                <p>{"Descrição:"}</p>
                 <h3>{evento.descricao}</h3>
                 <br/>
+                <p>{"Local:"}</p>
                 <h4>{evento.local}</h4>
                 <br/>
+                <p>{"Período:"}</p>
                 <h4>De {formatarData(evento.dataInicial)} Até {formatarData(evento.dataFinal)}</h4>
+
+                <div className={styles.button}>
+                    <Button>Alterar</Button>
+                </div>
             </div>
 
         </div>

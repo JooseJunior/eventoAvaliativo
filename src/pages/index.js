@@ -34,16 +34,11 @@ export default function Home() {
         <link rel="icon" href="/mundo.png" />
       </Head>
 
-      <Cabecalho>
-        Portal Conflitos Históricos
-      </Cabecalho>
+      <Cabecalho titulo={"Portal Conflitos Históricos"}/>
 
-      <CardList>
-
-      </CardList>
+      <CardList/>
       
-      <Rodape>
-      </Rodape>
+      <Rodape/>
 
       </div>
     </>
