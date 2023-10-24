@@ -1,5 +1,6 @@
 import Link from "next/link"
 import styles from "./styles.module.css"
+import Image from "next/image"
 
 export default function Cabecalho({titulo}){
 
@@ -12,9 +13,7 @@ export default function Cabecalho({titulo}){
 
             <div className={styles.link}>
                 <Link className={styles.itemLink} href="/">Home</Link>
-                <Link className={styles.itemLink} href="/">Cadastrar</Link>
-                <Link className={styles.itemLink} href="/">Alterar</Link>
-                <Link className={styles.itemLink} href="/">Deletar</Link>
+                <Link className={styles.itemLink} href="/appCadastro">Cadastrar</Link>
             </div>
         </header>
 

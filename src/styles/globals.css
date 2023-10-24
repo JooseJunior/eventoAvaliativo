@@ -1,5 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family= Chivo+Mono:ital@0;1 & display =swap');
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Chivo', sans-serif;
+}
+
+:root{
+  --fundoGeral:  linear-gradient(180deg, #838383, #565657, #bfbfc0);
+}
+
+body{
+  background: var(--fundoGeral);
+  background-attachment: fixed;
+  background-size: cover;
+  /* align-items: center; */
+  /* justify-content: center; */
 }

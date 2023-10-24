@@ -5,6 +5,8 @@ import Image from 'next/image'
 import axios from 'axios'
 import Cabecalho from '@/components/Cabecalho'
 import Button from '@/components/Button'
+import Link from 'next/link'
+
 
 export default function Visualizar(){
 
@@ -33,34 +35,81 @@ export default function Visualizar(){
         <Cabecalho titulo={"Portal Conflitos Históricos"}/>
 
         <div className={styles.container}>
-            <div >
-                <Image
-                    className={styles.imagem}
+
+            <div className={styles.formImagem}>
+                <Image className={styles.imagem}
                     src={evento.imagem}
                     alt={`Imagem de ${evento.titulo}`}
                     width={400}
                     height={400}
                 />
             </div>
+            
+            <div className={styles.formInfo}>
 
-            <div className={styles.info}>
-                <h2 className={styles.infoTitulo}>{evento.titulo}</h2>
-                <div className={styles.barra}/>
-                <br/>
-                <p>{"Descrição:"}</p>
-                <h3>{evento.descricao}</h3>
-                <br/>
-                <p>{"Local:"}</p>
-                <h4>{evento.local}</h4>
-                <br/>
-                <p>{"Período:"}</p>
-                <h4>De {formatarData(evento.dataInicial)} Até {formatarData(evento.dataFinal)}</h4>
+                <div className={styles.info}>
+                    <div className={styles.infoTitulo}>
+                        {/* <p>{"Título:"}</p> */}
+                        {evento.titulo}
+                    </div>
+
+                    <div className={styles.infoBarra}/>
+
+                    <div className={styles.infoDescricao}>
+                        {/* <p>{"Descrição:"}</p> */}
+                        {evento.descricao}
+                    </div>
+
+                    <div className={styles.infoLocal}>
+                        <p>{"Local:"}</p>
+                        {evento.local}
+                    </div>
+
+                    <div className={styles.infoPeriodo}>
+                        <p>{"Período:"}</p>
+                        De {formatarData(evento.dataInicial)} Até {formatarData(evento.dataFinal)}
+                    </div>
+                </div>
 
                 <div className={styles.button}>
-                    <Button>Alterar</Button>
+
+                    {/* <div className={styles.btCadastrar}>
+                        <Link href={'#'}>
+                            <Image 
+                                src={"/add2.png"}
+                                width={43}
+                                height={43}
+                                alt='Cadastrar'
+                                title='Cadastrar evento'
+                            />
+                        </Link>
+                    </div> */}
+
+                    <div className={styles.btAlterar}>
+                        <Link href={'#'}>
+                            <Image 
+                                src={"/edit2.png"}
+                                width={40}
+                                height={40}
+                                alt='Alterar'
+                                title='Alterar evento'
+                            />
+                        </Link>
+                    </div>
+
+                    <div className={styles.btDeletar}>
+                        <Link href={'#'}>
+                            <Image 
+                                src={"/del2.png"}
+                                width={40}
+                                height={40}
+                                alt='Deletar'
+                                title='Deletar evento'
+                            />
+                        </Link>
+                    </div>
                 </div>
             </div>
-
         </div>
         </>
     )
