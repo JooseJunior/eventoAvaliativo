@@ -1,0 +1,144 @@
+import styles from './styles.module.css'
+import axios from "axios";
+import Input from '@/components/Input'
+import Textarea from '@/components/Textarea'
+import { toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
+import { useState } from 'react'
+import Label from '@/components/Label';
+import Cabecalho from '@/components/Cabecalho';
+import Rodape from '@/components/Rodape';
+import Button from '@/components/Button';
+
+
+export default function Cadastrar() {
+
+    const [evento, setEvento] = useState({
+        titulo: "",
+        descricao: "",
+        local: "",
+        dataInicial: "",
+        dataFinal: "",
+        imagem: ''
+    })
+
+    async function cadastrarEvento(e) {
+        e.preventDefault()
+
+        function limparEvento() {
+            setEvento({
+                titulo: "",
+                descricao: "",
+                dataInicial: "",
+                dataFinal: "",
+                local: "",
+                imagem: ''
+            });
+        }
+
+        axios.post('http://localhost:3001/eventos', evento)
+            .then(resultado => {
+                limparEvento();
+                toast.success('Cadastro realizado com sucesso!');
+            })
+            .catch(error => {
+                console.log("Cadastro de evento falhou!")
+                toast.error('Cadastro de evento falhou!');
+            });
+    }
+
+    return (
+        <>
+        <div className={styles.page}>
+
+        <Cabecalho titulo={"Portal Conflitos Históricos"}/>
+
+        <div className={styles.body}>
+            <div className={styles.container}>
+
+                <div className={styles.formImagem}>
+                    <img className={styles.img} src='/addAnimacao.svg' alt='Animação de Cadastro'/>
+                </div>
+
+                <div className={styles.formInfo}>
+                    
+                    <form onSubmit={cadastrarEvento}>
+
+                        <div className={styles.formInfoBody}>
+
+                            <div className={styles.formInfoHead}>
+                                <h1>Cadastrar</h1>
+                                <div className={styles.forminfoBarra}/>
+                            </div>
+
+                            <div className={styles.formInfoDados}>
+
+                                <div className={styles.formInfoBodyInput}>
+                                    <Label htmlFor='titulo'>Título</Label>
+                                    <Input id='titulo' name='titulo' type='text' value={evento.titulo} placeHolder=""
+                                        onChange={e => setEvento({...evento, titulo: e.target.value})}
+                                    />
+                                </div>
+
+                                <div className={styles.formInfoBodyInput}>
+                                    <Label htmlFor='descricao'>Descrição</Label>
+                                    <Textarea id='descricao' name='descricao' type='textarea' value={evento.descricao} placeHolder="" cols='50' rows='3'
+                                        onChange={e => setEvento({...evento, descricao: e.target.value})}>
+                                    </Textarea>
+                                </div>
+
+                                <div className={styles.formInfoBodyInput}>
+                                    <Label htmlFor='local'>Local</Label>
+                                    <Input id='local' name='local' type='text' value={evento.local} placeHolder=""
+                                        onChange={e => setEvento({...evento, local: e.target.value})}
+                                    />
+                                </div>
+                                
+                                <div className={styles.formInfoBodyDatas}>
+
+                                <div className={styles.formInfoBodyData}>
+                                    <Label htmlFor='dataInicial'>Data Inicial</Label>
+                                    <Input id='dataInicial' name='dataInicial' type='date' value={evento.dataInicial} placeHolder=""
+                                        onChange={e => setEvento({...evento, dataInicial: e.target.value})}
+                                    />
+                                </div>
+
+                                <div className={styles.formInfoBodyData}>
+                                    <Label htmlFor='dataFinal'>Data Final</Label>
+                                    <Input id='dataFinal' name='dataFinal' type='date' value={evento.dataFinal} placeHolder=""
+                                        onChange={e => setEvento({...evento, dataFinal: e.target.value})}
+                                    />
+                                </div>
+
+                                </div>
+
+                                <div className={styles.formInfoBodyFile}>
+                                    <Input id='imagem' type={'file'}
+                                        onChange={(e) => {
+                                            const file = e.target.files[0];
+                                            if (file) {
+                                                const filePath = `/${file.name}`;
+                                                setEvento({...evento, imagem: filePath});
+                                            }}}
+                                    />
+                                </div>
+                            </div>
+
+                            <div className={styles.formInfoButton}>
+                                <Button>Salvar</Button>
+                            </div>
+
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+        <Rodape/>
+
+        </div>
+        </>
+    )
+}

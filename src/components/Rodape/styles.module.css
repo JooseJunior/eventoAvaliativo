@@ -1,22 +1,39 @@
+.page{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    flex-grow: 1;
+}
+
 .footer{
     background-color: rgb(32, 32, 32);
     color: rgb(255, 255, 255);
     font-size: 20px;
     padding: 5px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+
+    /* align-items: center; */
     /* justify-content: space-between; */
+    /* align-content: flex-end; */
 }
 .info{
     display: flex;
     flex-direction: column;
     justify-content: start;
-    max-width: 400px;
+    max-width: 600px;
     left: 5px;
 }
 
 .info h1{
-    font-size: 20px;
+    font-size: 18px;
 }
 .info p{
     font-size: 14px;
@@ -26,7 +43,7 @@
     background-color: rgb(170, 168, 168);
     margin: 3px 0;
     height: 2px;
-    width: 400px;
+    width: 100%;
 }
 
 .local{

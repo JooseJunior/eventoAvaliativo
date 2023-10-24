@@ -25,6 +25,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 .container:hover{
     box-shadow: 10px 10px 15px rgba(0, 0, 255, 0.5);
 }
@@ -33,73 +34,70 @@
     width: 40%;
     height: 100%;
     background: rgb(155, 155, 155);
-    
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.img{
+    width: 90%;
+    height: auto;
+}
+
 .formInfo {
     width: 60%;
     height: 100%;
     background: #eee5e5;
-
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-}
-
-.imagem {
     padding: 5px;
-    /* max-width: 100%; */
-    /* width: auto; */
-    width: 100%;
-    max-height: 100%;
-    height: auto;
-    object-fit: contain;
 }
 
-.info{
-    padding: 25px;
+.formInfoBody{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border: 1px solid black;
 }
-.infoTitulo{
-    font-size: 27px;
+
+.formInfoHead{
+    font-size: 13px;
 }
-.infoDescricao{
-    margin-top: 15px;
-    font-size: 16px;
-}
-.infoLocal{
-    margin-top: 15px;
-    font-size: 16px;
-}
-.infoPeriodo{
-    margin-top: 15px;
-    font-size: 16px;
-}
-.info p{
-    font-size: 15px;
-}
-.infoBarra{
+
+.forminfoBarra{
     background-color: rgb(0, 0, 0);
-    width: 98%;
+    width: 100%;
     height: 3px;
+}
+
+.formInfoButton{
+    margin: 0px 25px;
+    width: 100%;
+}
+
+.formInfoDados{
+    margin: 2px 0px;
+}
+
+.formInfoBodyInput{
     margin: 5px 0px;
 }
 
-.button{
-    position: absolute;
-    margin: 10px;
-    
-    right: 0;
-    bottom: 0;
-
+.formInfoBodyDatas{
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
 }
 
-.btCadastrar, .btAlterar, .btDeletar {
-    margin-left: 5px;
-    width: 100%;
+.formInfoBodyData{
+    margin: 10px 0px;
+    margin-right: 20px;
+    width: 130px;
+}
+
+.formInfoBodyFile{
+    margin: 10px 0px;
+}
+
+.formInfoDados Label{
+    font-size: 12px;
 }
